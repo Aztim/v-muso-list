@@ -19,11 +19,12 @@ const signup = async (email, password, displayName) => {
   catch(err) {
     console.log(err.message)
     error.value = err.message
+    isPending.value = false
   }
 }
 
 const useSignup = () => {
-  return { error, signup }
+  return { error, signup, isPending }
 }
 
 export default useSignup
