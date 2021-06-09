@@ -31,7 +31,7 @@ export default {
       }
     }
 
-    return {email, password, displaName, isPending, error, handleSubmit}
+    return {email, password, displayName, isPending, error, handleSubmit}
   }
 }
 </script>
