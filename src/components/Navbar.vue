@@ -3,7 +3,7 @@
     <nav>
       <img src="@/assets/unnamed.jpg">
       <h1>
-        <router-link to="{name: 'Home'}">Muso List</router-link>
+        <router-link :to="{name: 'Home'}">Muso List</router-link>
       </h1>
       <div class="links">
         <div v-if="user">
