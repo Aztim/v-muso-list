@@ -1,5 +1,5 @@
 <template>
-  <form @submit.prevent="hadleSubmit">
+  <form @submit.prevent="handleSubmit">
     <h3>Sign up</h3>
 
     <input type="text" placeholder="Display name" v-model="displayName">
