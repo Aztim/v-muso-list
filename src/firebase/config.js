@@ -4,14 +4,13 @@ import 'firebase/auth'
 import 'firebase/storage'
 
 
-
 const firebaseConfig = {
-  apiKey: "AIzaSyD7pShL4g656_fkdM_kegZton1oUdYIU78",
-  authDomain: "muso-list-9cd0b.firebaseapp.com",
-  projectId: "muso-list-9cd0b",
-  storageBucket: "muso-list-9cd0b.appspot.com",
-  messagingSenderId: "61890367506",
-  appId: "1:61890367506:web:8110f7263aa70a2cd4c8cb"
+  apiKey: "AIzaSyBtepiO7n-9T8aibdkhCBIZ27WlxIYTkKc",
+  authDomain: "muso-list-9849c.firebaseapp.com",
+  projectId: "muso-list-9849c",
+  storageBucket: "muso-list-9849c.appspot.com",
+  messagingSenderId: "539132516397",
+  appId: "1:539132516397:web:93ad1cade427a0067d00a4"
 };
 
 //init firebase
